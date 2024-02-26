@@ -1,0 +1,10 @@
+@url= http://localhost:3333
+
+###
+# @name login
+POST {{url}}/teste
+Content-Type: application/json;charset=UTF-8
+
+{
+  "teste": "lojas"
+}
